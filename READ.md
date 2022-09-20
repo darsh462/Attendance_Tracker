@@ -1,4 +1,4 @@
-# Attwndance_Tracker - The Ultimate Installing Guide
+# Attendance_Tracker - The Ultimate Installing Guide
 
 
 ## Prerequisites
