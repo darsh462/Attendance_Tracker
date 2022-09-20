@@ -1,4 +1,4 @@
-# E-Attendance   
+# Attendance_Tracker   
 
 ## Prerequisites
 
