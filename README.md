@@ -1,7 +1,5 @@
 # E-Attendance   
 
-For More Info Goto Wiki  https://github.com/ab007shetty/eattendance/wiki
-
 ## Prerequisites
 
 1. node.js https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi
