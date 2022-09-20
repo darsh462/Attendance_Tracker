@@ -1,6 +1,5 @@
-# E-Attendance - The Ultimate Installing Guide
+# Attwndance_Tracker - The Ultimate Installing Guide
 
-## Project URL: <https://eattendance2021.herokuapp.com/>
 
 ## Prerequisites
 
@@ -23,8 +22,8 @@ While installing choose to install mongodb compass, else install it seperately.
 
 ## Installation
 
-1.Download the Repo and extract it to the convinient location on your Computer:
-<https://github.com/ab007shetty/eattendance>
+1.Download the Repo and extract it to the convinient location on your Computer`
+
 
 2.Install NPM packages
 -> You should be in root directory of ur project.
@@ -43,16 +42,12 @@ While installing choose to install mongodb compass, else install it seperately.
 4.Create a empty folder namely 'db' in root of our project.
 -> change path name aacoording to ur PC.
 
-```sh
- mongod --dbpath C:\Users\ABShetty\Desktop\Eclassroom\db        
-```
+
 
 5.Extract dump.rar file.
 -> You have to change path.
 
-```sh
- mongorestore -d attendance_portal C:\Users\ABShetty\Desktop\dump     
-```
+
 
 OR
 You can also import files using mongo compass GUI, for that files will be in " db.rar "  Just Import json files.
@@ -74,17 +69,13 @@ You can also import files using mongo compass GUI, for that files will be in " d
 3.Start the mongo server
 -> change path to ur path.
 
-```sh
-   mongod --dbpath C:\Users\ABShetty\Desktop\Eclassroom\db 
-```
+
 
 ## Compass Connection
 
 1.After Installing MongoDB Compass, paste this in the adress bar of compass.
 
-```sh
-   mongodb+srv://abshetty:xHPl9iJDBtGc8lvQ@eattendance.oxj6e.mongodb.net/test 
-```
+
 
 For Local connection
 
@@ -102,9 +93,7 @@ For Local connection
 
 2.Restore the database from imported schema.
 
-```sh
-   mongorestore -d attendance_portal C:\Users\ABShetty\Desktop\dump
-```
+
 
 ## Heroku Setup
 
@@ -119,18 +108,11 @@ If you haven't already, log in to your Heroku account and follow the prompts to 
 ```
 
 2.Clone the repository
-Use Git to clone eattendance2021's source code to your local machine.
+Use Git to clone attendance_tracker source code to your local machine.
 
-```sh
-   heroku git:clone -a eattendance2021
-   cd eattendance2021
-```
+
 
 3.Deploy your changes
 Make some changes to the code you just cloned and deploy them to Heroku using Git.
 
-```sh
-   git add .
-   git commit -am "make it better"
-   git push heroku master
-```
+
